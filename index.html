@@ -25,15 +25,15 @@
                         <br>
                         государственном газе!
                     </h1>
-                    <form action="">
-                        <input type="text" placeholder="Имя">
-                        <input type="text" placeholder="Фамилия">
-                        <input type="text" placeholder="Электронная почта">
-                        <input type="text" placeholder="Номер телефона">
+                    <form action="http://no-max.webhop.me/api/customers" id="send" method="post">
+                        <input name="firstName" type="text" placeholder="Имя" form="send">
+                        <input name="lastName" type="text" placeholder="Фамилия" form="send">
+                        <input name="email" type="text" placeholder="Электронная почта" form="send">
+                        <input name="phone" type="text" placeholder="Номер телефона" form="send">
+                        <button class="mainButton" type="submit">
+                            Начать зарабатывать
+                        </button>
                     </form>
-                    <button class="mainButton">
-                        Начать зарабатывать
-                    </button>
                 </div>
             </div>
 
