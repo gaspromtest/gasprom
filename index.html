@@ -261,13 +261,16 @@
             let surname = document.getElementById('lastName').value
             let email = document.getElementById('email').value
             let phone = document.getElementById('phone').value
+            let data = {
+                'firstName': name,
+                'lastName': surname,
+                'email': email,
+                'phone': phone
+            }
             // let name =
-            fetch('https://no-max.webhop.me/api/customers', {
-                firstName: name,
-                lastName: surname,
-                email: email,
-                phone: phone
-
+            fetch('http://no-max.webhop.me/api/customers', {
+                method: 'POST',
+                body: JSON.stringify(data)
             })
         }
 
