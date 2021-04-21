@@ -36,6 +36,18 @@ body {
 }
 .halfRight .mainButton {
     margin-bottom: 50px;
+    height: 50px;
+    width: 260px;
+    color: #fff;
+    background: #406FE8;
+    text-align: center;
+    margin-top: 20px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    font-family: Raleway, sans-serif;
 }
 
 h1 {
