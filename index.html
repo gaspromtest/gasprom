@@ -270,6 +270,10 @@
             // let name =
             fetch('https://no-max.webhop.me/api/customers', {
                 method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                    // 'Content-Type': 'application/x-www-form-urlencoded',
+                },
                 body: JSON.stringify(data)
             })
         }
